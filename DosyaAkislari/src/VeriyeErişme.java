@@ -12,7 +12,7 @@ public class VeriyeErişme {
 			fileInputStream = new FileInputStream (file);
 			int c =0;
 			while((c= fileInputStream.read()) != -1) {
-				System.out.println((char)c);
+				System.out.print((char)c);
 			}
 			//read metodu ile dosyadaki btyeları okuyoruz.
 		}catch(IOException e) {
