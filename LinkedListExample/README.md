@@ -1,8 +1,11 @@
 # LinkedListExample
-Bu Java projesi, bir LinkedList örneği oluşturarak LinkedList'in çeşitli özelliklerini ve kullanımını göstermektedir.
+Bu Java projesi, LinkedList veri yapısını kullanarak öğrenci bilgilerini saklamak ve yönetmek için bir uygulama içerir. Proje, LinkedListExample ve Students sınıflarını içerir. Ayrıca, öğrenci bilgilerini temsil etmek için Student sınıfı da bulunmaktadır.
+
+## LinkedListExample Sınıfı
+Bu sınıf, bir LinkedList örneği oluşturarak LinkedList'in çeşitli özelliklerini ve kullanımını göstermektedir.
 
 ## Amaç
-Bu proje, LinkedList veri yapısının nasıl kullanılabileceğini ve LinkedList sınıfının sağladığı yöntemlerin nasıl çalıştığını göstermektedir.
+LinkedList veri yapısının nasıl kullanılabileceğini ve LinkedList sınıfının sağladığı yöntemlerin nasıl çalıştığını göstermek.
 
 ## Kullanılan Metotlar ve İşlevleri
 - add(int index, E element): Belirtilen indekse bir öğe ekler.
@@ -22,15 +25,23 @@ Bu proje, LinkedList veri yapısının nasıl kullanılabileceğini ve LinkedLis
 - LinkedListExample.java dosyasını çalıştırın.
 - Konsol çıktısında, LinkedList üzerinde yapılan işlemleri gözlemleyin.
 
+## Students Sınıfı
+Bu sınıf, öğrenci nesnelerini bir LinkedList içinde saklar ve yönetir.
+
+## Metodlar:
+- main(): Programın çalıştırıldığı ana metod. Bir öğrenci listesi oluşturur, öğrenci ekler, listeyi döngüyle yazdırır ve bir öğrenci siler.
+
 ## Örnek Kullanım Senaryosu
-- LinkedList'e eleman eklemek.
-- Belirli bir indekse eleman eklemek.
-- Belirli bir elemanı almak.
-- İlk ve son elemanları değiştirmek.
-- Belirli bir elemanın indeksini bulmak.
+- LinkedList'e öğrenci eklemek.
+- Belirli bir indekse öğrenci eklemek.
+- Belirli bir öğrenciyi almak.
+- İlk ve son öğrencileri değiştirmek.
+- Belirli bir öğrencinin indeksini bulmak.
 
-Bu proje, LinkedList'in temel işlevlerini anlamak ve kullanmak isteyen Java geliştiricileri için faydalı olacaktır.
-
+Bu proje, LinkedList ve öğrenci verilerini yönetmek isteyen Java geliştiricileri için faydalı olacaktır.
 
 
 ![image](https://github.com/esmanur-karatas/fileOperationsWithJava/assets/83882274/dee76148-236a-46f6-b6d0-9671c9b98337)
+
+![image](https://github.com/esmanur-karatas/fileOperationsWithJava/assets/83882274/afab4f03-0f46-41ea-a104-87dad734a9b6)
+
