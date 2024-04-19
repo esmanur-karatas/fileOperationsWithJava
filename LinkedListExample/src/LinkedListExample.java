@@ -34,6 +34,26 @@ public class LinkedListExample {
 			System.out.println(next);
 			
 		}
+
+		System.out.println("O. İNDEXTEKİ ELEMAN: "+ integers.get(0));
+		System.out.println("SON İNDEXTEKİ ELEMAN: "+ integers.get(integers.size()-1));
+		
+		
+		//ilk elemanı değiştirir.
+		integers.addFirst(33);
+		System.out.println("İLK ELEMAN: "+integers.getFirst());
+		
+		//Son elemanı değiştirir.
+		integers.addLast(100);
+		System.out.println("SON ELEMAN: "+integers.getLast());
+		
+		//herhamgi bir elemanın indexini bulmak için
+		int indexOf=integers.indexOf(55);
+		System.out.println("Girilen Elemanın İndex Numarası: "+indexOf);
+		
+		//sondan arama yapar
+		System.out.println("Sondan yapılan aramaya göre girilen değerin index numarası: "+ integers.lastIndexOf(55));
+
 		
 		
 		
