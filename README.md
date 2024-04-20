@@ -1,49 +1,59 @@
-# Java Proje Örnekleri
+# Java  Örnek Projeler Repository
+Bu GitHub repository, çeşitli Java örnek projelerini içerir. Her proje, belirli bir konsepti veya özelliği göstermek için oluşturulmuştur.
 
-Bu repository, Java programlama dilinde çeşitli proje örneklerini içermektedir. Her proje, farklı bir konuyu ele alır ve Java'nın çeşitli özelliklerini kullanarak çözümler sunar.
-
-## Projeler
-
-### 1. ConvertByteToCharacterStream
-
-Bu proje, bir byte akışını karakter akışına dönüştürmek için örnekler içerir. Temel olarak `InputStream` ve `OutputStream` sınıflarını kullanarak byte verilerini okuma ve yazma işlemlerini gösterir. Özellikle, byte verilerinin karakterlere nasıl dönüştürüleceği üzerinde durur.
-
-### 2. DosyaAkislari
-
-Dosya işlemleri ve akışları ile ilgili örnekler içeren bu proje, dosya okuma, yazma ve akış manipülasyonu işlemlerini kapsar. Farklı dosya türlerinden veri okuma ve yazma yöntemlerini içerir.
-
-### 3. FileAndPathClasses
-
-Java'nın `File` ve `Path` sınıflarının kullanımını gösteren örnekler içerir. Dosya ve dizin işlemleri yapmak için bu sınıfların nasıl kullanılacağını gösterir. Özellikle, dosya sistemine erişim ve dosya yollarıyla ilgili işlemleri kapsar.
-
-### 4. FileIO
-
-Dosya giriş/çıkış işlemleriyle ilgili daha geniş kapsamlı örnekler içeren bu proje, dosya okuma, yazma, kopyalama ve taşıma gibi işlemleri gösterir. Ayrıca, dosya işlemleri sırasında hata yakalama ve işleme de dahil edilmiştir.
-
-### 5. ReadingByteSource
-
-Bir byte kaynağını okuma işlemleri üzerine odaklanan bu proje, `InputStream` ve `ByteArrayInputStream` gibi sınıfların kullanımını içerir. Byte verilerini okuma, işleme ve dönüştürme yöntemlerini içerir.
-
-### 6. RemoteFile
-
-Uzak bir sunucudaki dosyalara erişimle ilgili örnekler sunar. `URLConnection` ve `HttpURLConnection` gibi sınıfların kullanımını gösterir. Özellikle, ağ üzerinden dosya indirme ve yükleme işlemlerini kapsar.
-
-### 7. SerializationExample
-
-Nesnelerin serileştirilmesi ve deserializasyonu ile ilgili örnekler içeren bu proje, `Serializable` arayüzünün nasıl kullanılacağını ve nesnelerin dosyalara veya ağ üzerine nasıl yazılacağını gösterir. Veri aktarımı sırasında nesne durumlarını korumanın önemini vurgular.
-
-### 8. Serilization
-
-Serileştirme konsepti hakkında daha fazla örnek sunan bu proje, nesnelerin serileştirilmesi ve çözümlenmesi üzerinde derinlemesine durur. Farklı serileştirme senaryolarını içerir ve serileştirme işlemlerinin performans ve güvenlik açılarından incelenmesini sağlar.
-
-## Nasıl Başlamalı?
-
-Her bir proje klasöründe, ilgili projenin gereksinimlerini ve kullanımını açıklayan bir README dosyası bulunmaktadır. Her bir proje klasörünün içindeki README dosyasını inceleyerek projelerin nasıl kullanılacağını öğrenebilirsiniz.
-
-## Katkıda Bulunma
-
-Bu projeye katkıda bulunmak isterseniz, lütfen bir pull request oluşturun ve değişikliklerinizi açıklayın. Her türlü katkıya açığız!
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atın.
+Proje Listesi
+ArrayListEx
+Proje
+Bu proje, ArrayList sınıfının kullanımını gösterir. ArrayList'e öğe eklemek, öğe çıkarmak ve diğer işlemleri gerçekleştirmek için kullanılır.
+ArrayListExample
+Proje
+Bu proje, ArrayList sınıfını kullanarak basit bir örnek sunar. ArrayList'e öğe eklemek ve öğeleri listelemek için kullanılır.
+AutoBoxingExample
+Proje
+Bu proje, otomatik kutulama (auto-boxing) özelliğini gösterir. Otomatik kutulama ile ilgili temel kavramları anlamak için kullanılır.
+ConvertByteToCharacterStream
+Proje
+Bu proje, Java'da bayt akışını karakter akışına dönüştürme işlemini gösterir.
+DosyaAkislari
+Proje
+Bu proje, Java'da dosya akışlarını kullanarak dosyalar üzerinde işlemler gerçekleştirmeyi gösterir.
+FileAndPathClasses
+Proje
+Bu proje, Java'da File ve Path sınıflarının kullanımını gösterir. Dosya ve dizin işlemleri için kullanılır.
+FileIO
+Proje
+Bu proje, Java'da dosya giriş/çıkış işlemlerini (I/O) gösterir.
+IteratorExample
+Proje
+Bu proje, Iterator arayüzünün kullanımını gösterir. Bir nesne üzerinde döngü işlemleri gerçekleştirmek için kullanılır.
+LinkedListExample
+Proje
+Bu proje, LinkedList sınıfının kullanımını gösterir. LinkedList öğeleri üzerinde çeşitli işlemler gerçekleştirir.
+MapCity
+Proje
+Bu proje, HashMap kullanarak şehirlerin adını ve nüfusunu saklar. HashMap kullanımını gösterir.
+MapExample
+Proje
+Bu proje, HashMap sınıfının kullanımını gösterir. Anahtar-değer çiftleriyle ilgili işlemler yapar.
+ReadingByteSource
+Proje
+Bu proje, Java'da bayt tabanlı kaynakları okuma işlemini gösterir.
+RemoteFile
+Proje
+Bu proje, uzaktaki bir dosyaya erişimi gösterir. Uzak bir dosyadan veri okumak için kullanılır.
+SerializationExample
+Proje
+Bu proje, Java'da serileştirme işlemini gösterir. Nesnelerin akışlar üzerinden serileştirilmesini ve seriden çıkarılmasını sağlar.
+Serilization
+Proje
+Bu proje, Java'da serileştirme ve serileştirilmiş nesnelerin işlenmesiyle ilgili konuları ele alır.
+SortedMapExample
+Proje
+Bu proje, SortedMap arayüzünün kullanımını gösterir. Anahtarlar sıralı bir şekilde saklanır.
+VectorClassExample
+Proje
+Bu proje, Vector sınıfının kullanımını gösterir. Vector öğeleri üzerinde işlemler gerçekleştirir.
+VectorsExample
+Proje
+Bu proje, Vector sınıfını kullanarak örnek bir liste oluşturur ve öğeleri listeleyerek Vector sınıfının kullanımını gösterir.
+Her bir proje kendi klasöründe bulunur. Projenin üzerine tıklayarak ilgili projenin detaylarını görebilir ve ilgili kodları inceleyebilirsiniz.
