@@ -2,7 +2,7 @@
 Bu GitHub deposu, Java ile dosya işlemleri üzerine çeşitli örnek projeleri içerir. Her bir proje, farklı dosya işlemlerini gerçekleştirmek için oluşturulmuştur.
 
 ## Proje Listesi
--ConvertByteToCharacterStream
+- ConvertByteToCharacterStream
 
 Bu proje, byte ve karakter akışları arasında dönüşüm yapmayı gösterir. Byte akışını karakter akışına dönüştürür ve tersine işlemi gerçekleştirir.
 - DosyaAkislari
